@@ -1,85 +1,172 @@
-<!-- Don't change the index file here -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="screen" />
-	<title>CS4990 - Visual Programming for Teachers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="screen" />
+    <title>CS4990 - Visual Programming for Teachers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            width: 90%;
+            margin: auto;
+            max-width: 1000px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        #header, #footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #header h2 {
+            font-size: 1.8em;
+            margin: 0;
+            color: #24b2f9;
+        }
+
+        #header h3 {
+            font-size: 1.2em;
+            font-weight: normal;
+            color: #fff;
+        }
+
+        #content {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #f1f7fc;
+        }
+
+        .footer-link {
+            color: #005f8f;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        #footer p {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 
 <body>
-	<div id="container">
-		<div id="header">
-			<h2>CS4990 - Visual Programming for Teachers</h2>
-			<h3>Showcase of programming projects and curricula - made by our awesome teachers</h3>
-		</div>
-		<div id="content">
-			<!-- <h3>Project Curriculum</h3> -->
+    <div id="container">
+        <div id="header">
+            <h2>CS4990 - Visual Programming for Teachers</h2>
+            <h3>Showcase of programming projects and curricula - made by our awesome teachers</h3>
+        </div>
+        <div id="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Theme</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="teams-fall2022/index.html">Fall 2022</a></td>
+                        <td>Scratch</td>
+                    </tr>
+                    <tr>
+                        <td><a href="teams-fall2022/index-mc.html">Fall 2022</a></td>
+                        <td>MakeCode</td>
+                    </tr>
+                    <tr>
+                        <td><a href="teams-fall2022/index-app.html">Fall 2022</a></td>
+                        <td>Thunkable</td>
+                    </tr>
+                    <tr>
+                        <td><a href="teams-fall2023/index.html">Fall 2023</a></td>
+                        <td>Scratch</td>
+                    </tr>
+                    <tr>
+                        <td><a href="teams-fall2023/index-mc.html">Fall 2023</a></td>
+                        <td>MakeCode</td>
+                    </tr>
+                    <tr>
+                        <td><a href="teams-fall2023/index-app.html">Fall 2023</a></td>
+                        <td>Thunkable</td>
+                    </tr>
+                    <tr>
+                        <td><a href="teams-fall2024/index.html">Fall 2024</a></td>
+                        <td>Scratch</td>
+                    </tr>
+                    <tr>
+                        <td><a href="teams-fall2024/index-mc.html">Fall 2024</a></td>
+                        <td>MakeCode</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Fall 2024</a></td>
+                        <td>Thunkable</td>
+                    </tr>
+                    <tr>
+                        <td>Looking for next section?</td>
+                        <td>Contact <a href="mailto:yusun@cpp.edu" class="footer-link">Dr. Yu Sun</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="footer">
+            <p>
+                <a href="https://cpp-cs4all.github.io/" class="footer-link">CS4990</a> &ndash;
+                <a href="http://yusun.io/" class="footer-link">Dr. Yu Sun</a> &ndash;
+                <a href="http://www.cpp.edu/~cs/" class="footer-link">Computer Science Department</a> &ndash;
+                <a href="http://www.cpp.edu" class="footer-link">Cal Poly Pomona</a>
+            </p>
+        </div>
+    </div>
 
-			<table cellpadding="4" cellspacing="0">
-				<!-- Table Head Row -->
-				<tr bgcolor="#DFDFDF">
-					<td align="center">Class</td>					
-					<td align="center">Theme</td>				
-				</tr>
-				<!-- Table Data Rows -->
-				<tr>
-					<td valign="top"><a href="teams-fall2022/index.html">Fall 2022</a></td>
-					<td valign="top">Scratch</td>
-				</tr>
-				<tr>
-					<td valign="top"><a href="teams-fall2022/index-mc.html">Fall 2022</a></td>
-					<td valign="top">MakeCode</td>
-				</tr>
-				<tr>
-					<td valign="top"><a href="teams-fall2022/index-app.html">Fall 2022</a></td>
-					<td valign="top">Thunkable</td>
-				</tr>				
-				<tr>
-					<td valign="top"><a href="teams-fall2023/index.html">Fall 2023</a></td>
-					<td valign="top">Scratch</td>
-				</tr>
-				<tr>
-					<td valign="top"><a href="teams-fall2023/index-mc.html">Fall 2023</a></td>
-					<td valign="top">MakeCode</td>
-				</tr>
-				<tr>
-					<td valign="top"><a href="teams-fall2023/index-app.html">Fall 2023</a></td>
-					<td valign="top">Thunkable</td>
-				</tr>
-				<tr>
-					<td valign="top"><a href="teams-fall2024/index.html">Fall 2024</a></td>
-					<td valign="top">Scratch</td>
-				</tr>
-				<tr>
-					<td valign="top"><a href="teams-fall2024/index-mc.html">Fall 2024</a></td>
-					<td valign="top">MakeCode</td>
-				</tr>
-				<tr>
-					<td valign="top"><a href="">Fall 2024</a></td>
-					<td valign="top">Thunkable</td>
-				</tr>				
-		        <tr>
-					<td valign="top">Looking for next section?</td>
-					<td valign="top">Contact <a href="mailto:yusun@cpp.edu">Dr. Yu Sun</a></td>
-				</tr>
-			</table>
-		</div>
-		<div id="footer">
-			<p><a href="https://cpp-cs4all.github.io/">CS4990</a> &ndash; <a href="http://yusun.io/">Dr. Yu Sun</a> &ndash; <a href="http://www.cpp.edu/~cs/">Computer Science Department</a> &ndash; <a href="http://www.cpp.edu">Cal Poly Pomona</a></p>
-		</div>
-	</div>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-6153384-10', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+        ga('create', 'UA-6153384-10', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
 
 </html>
